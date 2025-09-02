@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(102, 105, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    }
+    h1{
+    color: rgb(0, 4, 255);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    ul{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    ol{
+        color: rgb(14, 14, 97);
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+   
+        .nav-enlace{
+            background-color: rgb(114, 150, 250);
+            color: rgb(255, 255, 255);
+            padding: 10px 30px;
+        
+        }
+        .nav-enlace:hover {
+        
+        
+            background-color: rgb(67, 198, 202);
+           }  
+           nav{ 
+               background-color: rgb(48, 65, 167);
+           padding:  10px;
+           display: flex;
+           justify-content: space-around;
+        }
+        header,section,footer{
+            padding: 20px;
+            color: white;
+        }
+        header{
+           border: 2PX solid rgb(128, 193, 197);
+            background-color: #007bff;
+        }
+        section{
+            border: 2px solid rgb(136, 201, 201);
+            background-color: #2d65af;
+            min-height: 200px;
+        }
+        footer{
+            border: 2px solid rgb(83, 148, 160);
+            background-color: #0d1b29;
+            text-align: center;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100vh;
+        
+        }
+        section{
+            border: 2px solid rgb(26, 14, 14);
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        .s1{ background-color: #3a0ddd;}
+        .s2{ background-color: #165669;}
+        .s3{ background-color: #153d7a;}
+        .s4{ background-color: #085353;}
+        
